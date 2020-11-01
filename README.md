@@ -8,7 +8,7 @@ Remember that in this expression beta is the inverse temperature and the sum run
 
 ![](https://render.githubusercontent.com/render/math?math=E=-\sum_{i=1}^Ns_is_{i%2B1}-H\sum_{i=1}^Ns_i)
 
-The sums here run over the number of spins, N, and the geometry is closed so ![](https://render.githubusercontent.com/render/math?math=s_{N+1}=s_1).
+The sums here run over the number of spins, N, and the geometry is closed so ![](https://render.githubusercontent.com/render/math?math=s_{N%2B1}=s_1).
 
 When you fill in the code in the cell on the left here the function `partitionfunction` should return the value of Z calculated by the formula above.  Within this function you will thus have a write a sum over all the possible microstates.  Notice, furthermore, that this function takes `N` (the number of spins), `H` (the magnetic field strength) and `T` (the temperature) as its input parameters. 
 
