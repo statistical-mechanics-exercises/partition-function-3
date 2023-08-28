@@ -2,11 +2,15 @@
 
 Now that we know how to generate all the possible microstates for a set of N spins we are in a position where we can finally calculate the canonical partition function using:
 
-![](https://render.githubusercontent.com/render/math?math=Z=\sum_{j=1}^Me^{-\beta\E(\mathbf{x}_j)})
+$$
+Z=\sum_{j=1}^Me^{-\beta\E(\mathbf{x}_j)}
+$$
 
 Remember that in this expression beta is the inverse temperature and the sum runs over the M microstates, ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j), that the system can adopt.  H, meanwhile, is one of the Hamiltonians that we learned how to compute during the first few of these exercises.  In this particular exercise we are going to use the Hamiltonian for the 1D Ising model in an external magnetic field, H:
 
-![](https://render.githubusercontent.com/render/math?math=E=-H\sum_{i=1}^Ns_i)
+$$
+E=-H\sum_{i=1}^Ns_i
+$$
 
 The sums here run over the number of spins, N, and the geometry is closed so ![](https://render.githubusercontent.com/render/math?math=s_{N%2B1}=s_1).
 
